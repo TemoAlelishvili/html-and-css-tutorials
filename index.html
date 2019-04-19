@@ -7,18 +7,21 @@
     <title>4-Forms</title>
 </head>
 <body>
-    <h1>My cleaner</h1>
+        <form action="/registation" method="POST">
+                
+            <label for="firstname" >
+                First name
+                <input type="text" name="firstname" id="firstname" >
+            </label>
 
-    <form action="/">
-        <label for="firstname">Firstname</label>
-        <input type="text" name="firstname" id="firstname">
-        <label for="secondname">Second name</label>
-        <input type="text" name="secondName" id="secondname">
-        <label for="age">Age</label>
-        <input type="text" name="age" id="age">
-        <input type="reset" value="Kill All">
-        <input type="submit" value="Send">
-    </form>
+            <label for="lastname">
+                Last name
+                <input type="text" name="lastname" id="lastname" >
+                </label>
+            
+           
+            <input type="submit" value="Send">
+        </form>
 
 </body>
 </html>
