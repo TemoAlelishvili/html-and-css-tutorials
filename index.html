@@ -7,7 +7,7 @@
     <title>4-Forms</title>
 </head>
 <body>
-    <form action="/registation" method="GET">
+    <form action="/registation" method="POST">
         <label for="">
             First name
             <input type="text" name="firstname" >
@@ -16,6 +16,11 @@
         <label for="">
             Last name
             <input type="text" name="lastname" >
+          
+        </label>
+        <label for="">
+            Password
+            <input type="password" name="pass" required >
           
         </label>
         <input type="submit" value="Send">
