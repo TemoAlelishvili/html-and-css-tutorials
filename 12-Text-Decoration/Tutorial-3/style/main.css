@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+footer {
+    font-family: 'PT Sans';
+    margin-top: 100px;
+}
+
+footer .wrap {
+    width: 1168px;
+    margin: 0 auto;
+    display: flex;
+}
+
+footer .top {
+    width: 100%;
+    padding: 95px 0 98px;
+    background: #222533;
+    border-bottom: 1px solid #39444E;
+}
+
+footer .top h3 {
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4.7px;
+    margin-bottom: 33px;
+    font-weight: normal;
+}
+
+footer .top h3::after {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 3px;
+    background: #1ABC9C;
+    margin-top: 4px;
+}
+
+footer .top .wrap > div {
+    width: 270.58px;
+    margin-right: 34px;
+}
+
+footer .top .wrap > div:last-child {
+    margin-right: 2px;
+}
+
+footer .top ul {
+    list-style-type: none;
+}
+
+footer .top ul li {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #46515C;
+    margin-bottom: 17px;
+}
+
+footer .top ul li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border: 0;
+    margin-top: -1px;
+}
+
+footer .top ul li:first-child {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #46515C;
+    margin-bottom: 15px;
+}
+
+footer .top ul li a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    margin-bottom: 0.5px;
+}
+
+footer .top ul li a:hover {
+    color: #1ABC9C;
+}
+
+footer .top ul li span {
+    color: #A1B1BC;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+footer .top p {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+footer .top p span {
+    color: #A1B1BC;
+    margin-bottom: 10px; /*TODO: change*/
+}
+
+footer .top p a {
+    width: max-content;
+    color: #1ABC9C;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+footer .top p a:hover {
+    color: #fff;   
+}
+
+footer .bottom {
+    width: 100%; /*remove*/
+    background: #171D22;
+    padding: 40px 0;
+}
+
+footer .bottom p {
+    word-spacing: -0.5px;
+    margin-top: -3px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #A1B1BC;
+}
+
+footer .bottom p a {
+    color: #1ABC9C;
+    text-decoration: none;
+}
+
+footer .bottom p a:hover {
+    color: #fff;
+}
