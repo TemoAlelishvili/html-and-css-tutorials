@@ -22,7 +22,7 @@ footer .wrap {
 
 footer .top {
     width: 100%;
-    padding: 95px 0 98px;
+    padding: 95px 0 95px;
     background: #222533;
     border-bottom: 1px solid #39444E;
 }
@@ -75,7 +75,8 @@ footer .top ul li:last-child {
 }
 
 footer .top ul li:first-child {
-    padding-bottom: 16px;
+    margin-top: 0;
+    padding-bottom: 15px;
     border-bottom: 1px solid #46515C;
     margin-bottom: 15px;
 }
@@ -85,7 +86,7 @@ footer .top ul li a {
     font-size: 16px;
     line-height: 24px;
     text-decoration: none;
-    margin-bottom: 0.5px;
+    margin-bottom: 1.5px;
 }
 
 footer .top ul li a:hover {
